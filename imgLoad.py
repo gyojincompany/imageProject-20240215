@@ -1,3 +1,5 @@
+## 이미지 불러오기
+
 import cv2  # opencv-python 패키지 설치
 
 img01 = cv2.imread("img/img01.jpg")  # 이미지 불러와서 img01에 저장
