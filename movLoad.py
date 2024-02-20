@@ -4,7 +4,7 @@ import cv2
 
 mov01 = cv2.VideoCapture("mov/mov01.avi")  # 동영상 불러오기
 mov01_width = mov01.get(cv2.CAP_PROP_FRAME_WIDTH)  # 동영상의 가로 크기 정보 추출
-mov01_height = mov01.get(cv2.CAP_PROP_FRAME_HEIGHT)  # 동영상의 가로 크기 정보 추출
+mov01_height = mov01.get(cv2.CAP_PROP_FRAME_HEIGHT)  # 동영상의 세로 크기 정보 추출
 mov01_fps = mov01.get(cv2.CAP_PROP_FPS)  # 동영상 FPS(초당 프레임 수)
 mov01_frame_count = mov01.get(cv2.CAP_PROP_FRAME_COUNT)  # 총 프레임 수 추출
 
